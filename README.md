@@ -1,3 +1,3 @@
 # NLP Project
 Submitted by
-Muhamed Irfan and Aparna Jairaj
+Muhamed Irfan, Aparna Jairaj and Disni Thomas
