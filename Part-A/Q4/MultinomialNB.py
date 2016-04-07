@@ -19,6 +19,7 @@ with open ("RefinedData.txt","r") as fin2:
 	for line in fin2:
 		if line[0]=='+':
 			for word in line.split():
+				word+= '\n'
 				pcount+=1
 				if word not in PWcount:
 					print word
@@ -29,6 +30,7 @@ with open ("RefinedData.txt","r") as fin2:
 			positive+=1
 		else:
 			for word in line.split():
+				word+= '\n'
 				ncount+=1
 				if word not in NWcount:
 					NWcount[word]= 0
